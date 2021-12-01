@@ -1,0 +1,5 @@
+- id: python-todo
+  name: python-todo
+  entry: python_todo.bash
+  language: script
+  types: [python]
