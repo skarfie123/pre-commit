@@ -8,3 +8,9 @@
   entry: javascript_todo.bash
   language: script
   types: [javascript]
+- id: pygrep-todo
+  name: check for TODO like comments
+  description: "A quick check for TODO like comments"
+  entry: '\b((#|//) (\?|TODO|FIXME|XXX|BUG|HACK))|\[ \]|\[x\]'
+  language: pygrep
+  types: [python]
