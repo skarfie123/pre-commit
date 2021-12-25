@@ -3,3 +3,8 @@
   entry: python_todo.bash
   language: script
   types: [python]
+- id: javascript-todo
+  name: javascript-todo
+  entry: javascript_todo.bash
+  language: script
+  types: [javascript]
